@@ -1,0 +1,7 @@
+
+services:
+
+    app_rest_api.api.command_collector:
+        class: Drupal\app_rest_api\Api\CommandCollector
+        tags:
+            - { name: service_collector, tag: api.command, call: addCommand }

@@ -1,0 +1,53 @@
+
+entity.component_configuration.canonical:
+    path: '/component_configuration/{component_configuration}'
+    defaults:
+        _entity_view: 'component_configuration'
+        _title: 'Component Configuration'
+    requirements:
+        _entity_access: 'component_configuration.view'
+
+
+entity.component_configuration.collection:
+    path: '/component_configuration/list'
+    defaults:
+        _entity_list: 'component_configuration'
+        _title: 'Component Configuration List'
+    requirements:
+        _permission: 'view component_configuration entity'
+
+component_configuration.configuration_add:
+    path: '/component_configuration/add'
+    defaults:
+        _entity_form: 'component_configuration'
+        _title: 'Add Component Configuration'
+    requirements:
+        _entity_create_access: 'component_configuration'
+
+entity.component_configuration.edit_form:
+    path: '/component_configuration/{component_configuration}/edit'
+    defaults:
+        _entity_form: component_configuration.edit
+        _title: 'Edit Component Configuration'
+    requirements:
+        _entity_access: 'component_configuration.edit'
+
+entity.component_configuration.delete_form:
+    path: '/component_configuration/{component_configuration}/delete'
+    defaults:
+        _entity_form: component_configuration.delete
+        _title: 'Delete Component Configuration'
+    requirements:
+        _entity_access: 'component_configuration.delete'
+
+component_configuration.configuration_settings:
+    path: 'admin/structure/component_configuration_settings'
+    defaults:
+        _form: '\Drupal\app_external_component\Form\ComponentConfigurationSettingsForm'
+        _title: 'Component Configuration Settings'
+    requirements:
+        _permission: 'administer component_configuration entity'
+
+
+
+

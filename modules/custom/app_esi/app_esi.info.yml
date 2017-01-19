@@ -1,0 +1,5 @@
+name: App ESI
+type: module
+description: App ESI module
+core: 8.x
+package: app

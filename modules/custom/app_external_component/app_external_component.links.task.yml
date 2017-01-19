@@ -1,0 +1,21 @@
+component_configuration.settings_tab:
+  route_name: component_configuration.contact_settings
+  title: 'Settings'
+  base_route: component_configuration.contact_settings
+
+
+component_configuration.view:
+  route_name: entity.component_configuration.canonical
+  base_route: entity.component_configuration.canonical
+  title: View
+
+component_configuration.page_edit:
+  route_name: entity.component_configuration.edit_form
+  base_route: entity.component_configuration.canonical
+  title: Edit
+
+component_configuration.delete_confirm:
+  route_name:  entity.component_configuration.delete_form
+  base_route:  entity.component_configuration.canonical
+  title: Delete
+  weight: 10

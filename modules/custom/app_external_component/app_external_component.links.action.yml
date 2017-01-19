@@ -1,0 +1,12 @@
+
+
+component_configuration.configuration_add:
+  # Which route will be called by the link
+  route_name: component_configuration.configuration_add
+  title: 'Add Component Configuration'
+
+  # Where will the link appear, defined by route name.
+  appears_on:
+    - entity.component_configuration.collection
+    - entity.component_configuration.canonical
+

@@ -1,0 +1,5 @@
+name: App SSI
+type: module
+description: App Nginx SSI module
+core: 8.x
+package: app

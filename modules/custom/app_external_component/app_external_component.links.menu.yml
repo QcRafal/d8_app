@@ -1,0 +1,13 @@
+
+
+entity.component_configuration.collection:
+  title: 'App External Component: Configurations Listing'
+  route_name: entity.component_configuration.collection
+  description: 'List Configuration'
+  weight: 10
+
+component_configuration.admin.structure.settings:
+  title: 'Component Configuration Settings'
+  description: 'Configure Contact entity'
+  route_name:  component_configuration.configuration_settings
+  parent: system.admin_structure

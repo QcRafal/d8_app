@@ -1,0 +1,7 @@
+
+services:
+
+    app_external_component.api.command.configuration_collection:
+        class: Drupal\app_external_component\Api\Command\ConfigurationCollectionCommand
+        tags:
+            - { name: api.command, module: 'external', action: 'components' }

@@ -1,0 +1,5 @@
+name: App Ext Compoent
+type: module
+description: App External Component Configuration module
+core: 8.x
+package: app

@@ -1,0 +1,5 @@
+services:
+    app_ssi.twig_extension.ssi:
+        class: Drupal\app_ssi\TwigExtension\SSIExtension
+        tags:
+          - { name: twig.extension }

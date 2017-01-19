@@ -1,0 +1,10 @@
+name: App Rest API
+type: module
+description: App Rest API
+core: 8.x
+package: app
+
+dependencies:
+    - serialization
+    - rest
+    - hal

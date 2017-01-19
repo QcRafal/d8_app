@@ -1,0 +1,9 @@
+name: App User Box
+type: module
+description: App User Box
+core: 8.x
+package: app
+
+dependencies:
+    - block
+    - app_server_includes

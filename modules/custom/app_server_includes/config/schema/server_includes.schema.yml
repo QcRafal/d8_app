@@ -1,0 +1,7 @@
+server_includes.policy:
+    type: config_object
+    label: 'Example config'
+    mapping:
+        policy:
+            type: text
+            label: 'Policy'

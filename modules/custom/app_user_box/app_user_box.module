@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function app_user_box_theme($existing, $type, $theme, $path) {
+  return [
+    'block__user_box' => [
+      'template'  => 'block--user-box',
+      'variables' => [
+          'content' => 'nul',
+      ],
+    ],
+  ];
+}

@@ -1,0 +1,11 @@
+
+'delete component_configuration entity':
+    title: Delete entity content.
+'add component_configuration entity':
+    title: Add entity content
+'view component_configuration entity':
+    title: View entity content
+'edit component_configuration entity':
+    title: Edit entity content
+'administer component_configuration entity':
+    title: Administer settings

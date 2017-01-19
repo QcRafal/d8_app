@@ -1,0 +1,5 @@
+services:
+    app_server_includes.twig_extension.ssi:
+        class: Drupal\app_server_includes\TwigExtension\ServerIncludeExtension
+        tags:
+          - { name: twig.extension }

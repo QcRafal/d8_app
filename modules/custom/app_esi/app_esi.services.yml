@@ -1,0 +1,5 @@
+services:
+    app_esi.twig_extension.esi:
+        class: Drupal\app_esi\TwigExtension\ESIExtension
+        tags:
+          - { name: twig.extension }

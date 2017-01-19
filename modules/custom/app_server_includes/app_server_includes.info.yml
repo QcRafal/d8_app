@@ -1,0 +1,11 @@
+name: App Server Includes
+type: module
+description: App Server Includes module
+core: 8.x
+package: app
+
+dependencies:
+    - app_esi
+    - app_ssi
+
+

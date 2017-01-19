@@ -1,0 +1,7 @@
+app_server_includes.settings:
+  path: '/admin/structure/app_server_includes/settings'
+  defaults:
+    _form: '\Drupal\app_server_includes\Form\ServerIncludesSettingsForm'
+    _title: 'Server Includes'
+  requirements:
+    _permission: 'administer site configuration'

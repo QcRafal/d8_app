@@ -1,0 +1,7 @@
+
+app_rest_api.call_command:
+    path: '/api/{module}/{action}'
+    defaults:
+        _controller: '\Drupal\app_rest_api\Controller\ApiController::callCommand'
+    requirements:
+        _access: 'TRUE'
